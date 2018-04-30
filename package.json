@@ -1,0 +1,21 @@
+{
+  "name": "rollup-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Laurent Goudet <lgoudet@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.17.0-beta.47"
+  },
+  "jspm": {
+    "name": "rollup-bug",
+    "main": "rollup-bug.js",
+    "devDependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.25"
+    }
+  }
+}
